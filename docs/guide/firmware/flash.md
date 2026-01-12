@@ -18,6 +18,32 @@
 **ⓘ部分文件名可能略有不同**
 1. 下载固件，你可以在([软件_刷机包 | 白银的文件存储](https://oplst.iccmc.cc/%E8%BD%AF%E4%BB%B6_%E5%88%B7%E6%9C%BA%E5%8C%85))中下载播放器文件
 2. 解压后，启动USB tree view.exe。你会看到如下界面!
+<style>
+.device-layout {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  margin: 16px 0;
+}
+.device-layout img {
+  max-width: 280px;
+  border-radius: 8px;
+}
+.device-layout table {
+  margin: 0;
+  flex: 1;
+}
+@media (max-width: 640px) {
+  .device-layout {
+    flex-direction: column;
+  }
+  .device-layout img {
+    max-width: 100%;
+  }
+}
+</style>
+
+<div class="device-layout">
   <img src="/images/flash_2.png">
 3. 选择一条较短且可靠的数据线（一定是**数据线**，部分充电线是不能传输数据的!)，连接你的通行证与电脑
 4. 按下FEL按键的同时打开电源开关（打开开关时按住FEL按钮），进入FEL模式。![](https://github.com/rhodesepass/docs/blob/main/docs/public/images/flash_1.png)如果没有问题，你将会在USB tree view中看见一个新的设备。![](https://github.com/rhodesepass/docs/blob/main/docs/public/images/flash_3.png)
